@@ -12,4 +12,11 @@
 
     document.getElementById('ID')
      id가 ID인 친구에게 보내주기
+
+    컴포넌트
+     function으로 정의 내린 곳을 컴포넌트(component)라고 함
+
+     외부파일에서 사용하기 위해 export default "name" 을 사용해야함
+
+     ';'를 끝에 안붙여줘도 오류가 생기지 않음
      
