@@ -1,4 +1,6 @@
-const foodLik = [
+import Potato from "./Potato"
+
+const foodLike = [
   {
     name: "chicken",
     image: "https://t1.daumcdn.net/cfile/tistory/243E943A58EC695726"
@@ -12,8 +14,9 @@ const foodLik = [
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
-      <Food fav= "kimch" />
+      {
+        foodLike.map(dish => (<Food name={dish.name} />))
+      }
     </div>
   )
 }
