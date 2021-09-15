@@ -14,6 +14,8 @@
         이러면 I like kimchi. 가 나오게 됨
 
         const foodLik = [ {name: "", image: ""} ]
+    
+    리스트의 각 원소는 유일한 key prop를 가져야 한다
 
 ## [ 09월 08일 ]
 
