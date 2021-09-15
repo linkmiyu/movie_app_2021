@@ -1,5 +1,20 @@
 # 유진현 201840220
 
+## [ 09월 15일]
+
+    리액트 기초 개념 
+    <props>
+        컴포넌트에서 컴포넌트로 전달하는 데이터 함수의 매개변수 역활을 함
+            <Food fav = "kimchi" somethig = {ture} papapa = {'hello'} />
+
+            function Food(foo)) {
+                const { fav } = props
+                return <h1>I like {fav}.</h1>
+            }
+        이러면 I like kimchi. 가 나오게 됨
+
+        const foodLik = [ {name: "", image: ""} ]
+
 ## [ 09월 08일 ]
 
     favicon
@@ -16,7 +31,7 @@
     컴포넌트
      function으로 정의 내린 곳을 컴포넌트(component)라고 함
 
-     외부파일에서 사용하기 위해 export default "name" 을 사용해야함
+     외부파일에서 사용하기 위해 export default "null" 을 사용해야함
 
      ';'를 끝에 안붙여줘도 오류가 생기지 않음
      
