@@ -1,5 +1,27 @@
 # 유진현 201840220
 
+## [ 09월 29일]
+
+    branch 사용하기
+        github branch 예시 
+        branch를 사용해서 메인인 master에서 작업하는게 아닌 작업을 따로 한후 작업이 완료 되면 master에 커밋해서 작업하는 방법
+
+![git-branches-merge](https://user-images.githubusercontent.com/79895978/135209061-0511a87a-89f8-454e-94a0-736f51dd7a66.png)
+
+    props 는 정적인 데이터만 사용 state는 동적인 데이터를 사용
+    state는 class형 컴포넌트에서 사용하게 됨
+
+    'onClick={this.name}'을 통해서 클릭시 이벤트 처리를 할수 있다
+
+    생명 주기 함수
+
+![제목 a없음](https://user-images.githubusercontent.com/79895978/135222287-38530aea-d395-4fa2-a656-a564f1466464.png)
+
+    위 사진중 힌색박스안에 있는 명령어에 경우 사라질 예정이니 사용 자제
+
+![생성자](https://user-images.githubusercontent.com/79895978/135223891-d509699e-d495-4528-85b5-872dd37ee943.png)
+
+
 ## [ 09월 15일]
 
     리액트 기초 개념 

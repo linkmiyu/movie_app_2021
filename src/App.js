@@ -1,50 +1,43 @@
-import Potato from "./Potato"
+import {Component} from "react"; // 여러 기능이 이미 구현이 되어있기 떄문에 사용하기 편리
 
-const foodLike = [
-  {
-    id: 1,
-    name: "chicken",
-    image: "https://t1.daumcdn.net/cfile/tistory/243E943A58EC695726"
-  },
-  {
-    id: 2,
-    name: "hamburger",
-    image: "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRQS6z_3CiF9nQZWmgNGLRNHrDYWHtzZWHjZ2vOZ-zBSELSq9s_AxzeFlyFchDkYz1wyOt3Fzx7oysQhWruX80"
-  }
-]
+class App extends Component {
 
-// // function renderFood(dish) {
-// //   return (
-// //     <Food name={dish.name} picture={dish.image} />
-// //   )
-// // }
+    constructor(props) {
+        super(props)
+        console.log('constructor')
+    }
 
-// const renderFood = dish => <Food name={dish.name} picture={dish.image} />
+    componentDidMount() {
+        console.log('componentDidMount')
+    }
 
-function App() {
-  return (
-    <div>
-      {
-        foodLike.map(dish => <Food id={dish.id} name={dish.name} picture={dish.image} />)
-      }
-    </div>
-  )
-}
+    componentDidUpdate() {
+        console.log('componentDidUpdate')
+    }
 
-function Food({id, name, picture}) {
-  // const { name } = props
-  return (
-    <div>
-      <h1>I like {name}.</h1>
-      <img src={picture} alt={name} />
-      <p>{id}</p>
-    </div>
-  )
-    
-    
-      
+    state = {
+        count: 0 ,
+    }
 
-  
+    add = () => {
+        this.setState({count: this.state.count + 1})
+    }
+
+    Minus = () => {
+        this.setState({count: this.state.count - 1})
+    }
+
+    render() {
+        console.log('render')
+        return (
+            <div>
+                <h1>The number is: {this.state.count}</h1>
+                <button onClick={this.add}>Add</button>
+                <button onClick={this.Minus}>Minus</button>
+            </div>
+                 
+        )
+    }
 }
 
 export default App
