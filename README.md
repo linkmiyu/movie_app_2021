@@ -4,6 +4,7 @@
 
     branch 사용하기
         github branch 예시 
+
         branch를 사용해서 메인인 master에서 작업하는게 아닌 작업을 따로 한후 작업이 완료 되면 master에 커밋해서 작업하는 방법
 
 ![git-branches-merge](https://user-images.githubusercontent.com/79895978/135209061-0511a87a-89f8-454e-94a0-736f51dd7a66.png)
