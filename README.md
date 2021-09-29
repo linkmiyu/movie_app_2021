@@ -18,7 +18,7 @@
 
 ![제목 a없음](https://user-images.githubusercontent.com/79895978/135222287-38530aea-d395-4fa2-a656-a564f1466464.png)
 
-    위 사진중 힌색박스안에 있는 명령어에 경우 사라질 예정이니 사용 자제
+    위 사진중 힌색박스안에 있는 명령어에 경우 사라질 예정이니 사용 금지
 
 ![생성자](https://user-images.githubusercontent.com/79895978/135223891-d509699e-d495-4528-85b5-872dd37ee943.png)
 
