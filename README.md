@@ -4,7 +4,7 @@
 
     branch 사용하기
         github branch 예시 
-    ![git-branches-merge](https://user-images.githubusercontent.com/79895978/135209061-0511a87a-89f8-454e-94a0-736f51dd7a66.png)
+   ![git-branches-merge](https://user-images.githubusercontent.com/79895978/135209061-0511a87a-89f8-454e-94a0-736f51dd7a66.png)
         branch를 사용해서 
 
 
