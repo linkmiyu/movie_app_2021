@@ -1,6 +1,11 @@
 # 유진현 201840220
 
-## [ 09월 29일]
+## [ 10월 06일 ]
+
+![axios함수](https://user-images.githubusercontent.com/79895978/136158799-7b9fead8-ee41-4063-aa68-84f4faa16e7f.png)
+
+
+## [ 09월 29일 ]
 
     branch 사용하기
         github branch 예시 
@@ -23,7 +28,7 @@
 ![생성자](https://user-images.githubusercontent.com/79895978/135223891-d509699e-d495-4528-85b5-872dd37ee943.png)
 
 
-## [ 09월 15일]
+## [ 09월 15일 ]
 
     리액트 기초 개념 
     <props>

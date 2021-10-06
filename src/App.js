@@ -1,41 +1,37 @@
-import {Component} from "react"; // 여러 기능이 이미 구현이 되어있기 떄문에 사용하기 편리
+import React from "react"
+import axios from "axios"
 
-class App extends Component {
+class App extends React.Component {
+    state = {
+        isLoading: true,
+        moives: [],
+    }
 
-    constructor(props) {
-        super(props)
-        console.log('constructor')
+    getMovies = async () => {
+        const {
+            data: {
+                data: {moives}
+            }
+        } = await axios.get('https://yts-proxy.now.sh/list_movies.json')
+        // const moives
+        console.log(moives.data.data.moives)
     }
 
     componentDidMount() {
-        console.log('componentDidMount')
-    }
+        this.getMovies()
+        axios.get('https://yts-proxy.now.sh/list_movies.json')
 
-    componentDidUpdate() {
-        console.log('componentDidUpdate')
-    }
-
-    state = {
-        count: 0 ,
-    }
-
-    add = () => {
-        this.setState({count: this.state.count + 1})
-    }
-
-    Minus = () => {
-        this.setState({count: this.state.count - 1})
+        // setTimeout( () => {
+        //     this.setState({ isLoading : false })
+        // }, 6000)
     }
 
     render() {
-        console.log('render')
+        const { isLoading } = this.state
         return (
             <div>
-                <h1>The number is: {this.state.count}</h1>
-                <button onClick={this.add}>Add</button>
-                <button onClick={this.Minus}>Minus</button>
+                {isLoading ? 'Loading...' : '영화 데이터 출력'}
             </div>
-                 
         )
     }
 }
